@@ -29,10 +29,8 @@ public class Comparable {
                 employeeCSV = br.readLine();
             }
 
-            /* ORDENANDO UMA COLEÇÃO
+            //ORDENANDO UMA COLEÇÃO
             Collections.sort(list);
-            ERROR: pois a classe Employee não é um tipo Comparable!
-            */
 
             // PRINTANDO CADA VALOR DA LISTA
             for (Employee emp : list) {
